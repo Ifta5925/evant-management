@@ -1,0 +1,37 @@
+.cartBanner {
+    height: 40vmin;
+    width: 100%;
+    background-image: url("../../assets/images/planbanner.jpg");
+    background-size:cover ;
+  }
+  .card-header {
+    background-color: none !important;
+  }
+ 
+  .title{
+      color: #0a472e;
+      font-weight: 700;
+      letter-spacing: -2px;
+      font-family: mazzard soft h,helveticaneue-light,helvetica neue light,helvetica neue,Helvetica,Arial,lucida grande,sans-serif;
+  }
+  .subTitle{
+       letter-spacing: -1px;
+        color: #0a472e;
+          font-weight: 700;
+          font-size: 18px;
+  font-family: mazzard soft h,helveticaneue-light,helvetica neue light,helvetica neue,Helvetica,Arial,lucida grande,sans-serif;
+  }
+  .description{
+      
+  font-family: mazzard soft h,helveticaneue-light,helvetica neue light,helvetica neue,Helvetica,Arial,lucida grande,sans-serif;
+      color: #555;
+          line-height: 1.8;
+      text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  }
+ 
+  @media only screen and (max-width: 479px) {
+    .cartBanner {
+      height: 32vmin;
+    }
+  }

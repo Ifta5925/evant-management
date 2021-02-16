@@ -1,0 +1,16 @@
+.Content {
+    margin-top: 3%;
+    
+}
+@media screen and (min-width:321px) and (max-width:768px){
+  .Content {
+    margin-top: 3%;
+}
+}
+
+@media screen and (max-width:320px) {
+  .Content {
+    margin-top: 16%;
+
+}
+}

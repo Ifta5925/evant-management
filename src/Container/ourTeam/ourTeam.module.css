@@ -1,0 +1,14 @@
+.cartBanner {
+  height: 40vmin;
+  width: 100%;
+  background-image: url("../../assets/images/planbanner.jpg");
+  background-size:cover ;
+}
+.card-header {
+  background-color: none !important;
+}
+@media only screen and (max-width: 479px) {
+  .cartBanner {
+    height: 32vmin;
+  }
+}

@@ -1,0 +1,100 @@
+
+.pricingTable{
+    background-color: #fff;
+    font-family: 'Roboto', sans-serif;
+    text-align: center;
+    padding: 35px 0 0;
+    box-shadow: 3px 3px 7px 0px rgba(0,0,0,0.3);
+    border-radius: 20px;
+}
+.pricingTable .pricingTableHeader{
+    background: linear-gradient(transparent,transparent,#e7e7e7);
+    padding: 0 0 30px;
+}
+.pricingTable .title{
+    color: #333;
+    font-size: 33px;
+    font-weight: 700;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    margin: 0 0 20px;
+}
+.pricingTable .title:after{
+    content: "";
+    background: #F63459;
+    width: 160px;
+    height: 3px;
+    margin: 20px auto 0;
+    display: block;
+    clear: both;
+}
+.pricingTable .priceValue{
+    color: #F63459;
+    font-size: 52px;
+    font-weight: 800;
+    line-height: 47px;
+    letter-spacing: 2px;
+    display: block;
+}
+.pricingTable .priceValue {
+    font-size: 20px;
+    vertical-align: bottom;
+}
+.pricingTable .pricingContent{
+    background: linear-gradient(#F53149, #FD6653);
+    border-radius: 0 0 20px 20px;
+    padding: 35px 30px;
+}
+.pricingTable .pricingContent ul{
+    text-align: left;
+    padding: 0 0 0 20px;
+    margin: 0 0 25px;
+    display: inline-block;
+}
+.pricingTable .pricingContent ul li{
+    color: #fff;
+    font-size: 17px;
+    font-weight: 300;
+    margin: 0 0 15px;
+    letter-spacing: 0.5px;
+    position: relative;
+}
+.pricingTable .pricingContent ul li:last-child{ margin: 0; }
+.pricingTable .pricingTableSignup a{
+    color: #fff;
+    font-size: 20px;
+    font-weight: 400;
+    font-style: italic;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    padding: 7px 25px;
+    margin: 0 auto;
+    border: 2px solid #fff;
+    border-radius: 10px;
+    display: inline-block;
+    transition: all 0.5s;
+}
+.pricingTable .pricingTableSignup a:hover{
+    letter-spacing: 2px;
+    box-shadow: 0 0 0 5px rgba(255,255,255,0.5);
+}
+.cartBanner {
+    height: 40vmin;
+    width: 100%;
+    background-image: url("../../assets/images/planbanner.jpg");
+    background-size:cover ;
+  }
+  .card-header {
+    background-color: none !important;
+  }
+  @media only screen and (max-width: 479px) {
+    .cartBanner {
+      height: 32vmin;
+    }
+  }
+.pricingTable.orange .title:after{ background-color: #ED8009; }
+.pricingTable.orange .priceValue{ color: #ED8009; }
+.pricingTable.orange .pricingContent{ background: linear-gradient(#ED8009, #FCA531); }
+@media only screen and (max-width: 990px){
+    .pricingTable{ margin-bottom: 40px; }
+}

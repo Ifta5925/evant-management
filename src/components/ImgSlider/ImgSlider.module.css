@@ -1,0 +1,34 @@
+.newsletters img {
+    width: 100%;
+    height: 100vh;
+    object-fit: cover;
+    filter: brightness(.4);
+  }
+.newsletters section {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: #fff;
+    font-family: 'Roboto', sans-serif;
+  }
+  .button {
+    z-index: 10px;
+    background-color: #4CAF50; /* Green */
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    background-color: rgba(255, 255, 255, 0.199); 
+    color: black; 
+    border-radius:25px;
+  }
+  .button:hover{
+    background-color: rgb(148, 120, 120); 
+  }
+  
